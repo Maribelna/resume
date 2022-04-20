@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+    font: normal 18px 'Times New Roman', sans-serif;
+    background: #f1f1f1;
+}
+
+@media (max-width: 600px){    
+    body{
+        font-size: small;
+        padding: 10px;
+    }
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+@media (max-width: 600px){
+    .container {
+        display: block;
+    }
+}
+
+.container .box-one{
+background: rgb(234, 252, 237);
+width: 35%;
+}
+
+@media (max-width: 600px){    
+    .container .box-one{
+        width: 100%;
+
+    }
+    }
+
+.box-one h2{
+    font-size: 25px;
+    font-style: b;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.box-one h3{
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.personal-info{
+    width: 100%;
+    margin-left: 10px;
+}
+
+.personal-info td:hover{
+    background: rgb(231, 231, 231);
+}
+
+.avatar{
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 5px 4px 14px 5px rgb(63, 63, 63);
+    display: block;
+    margin: 15px auto;
+}
+
+.social{
+text-align: center;   
+}
+
+.link-TG{
+    background: #30a3e6;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.link-VK:hover{
+    color: coral;
+}
+.link-TG:hover{
+    color: coral;
+}
+
+
+.link-VK{
+    background: #5280b9;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.connection{
+   margin-left: 10px;
+}
+
+.connection input, textarea{
+    width: 100%;
+    background: inherit;
+    font-family: inherit;
+    font-size: inherit;
+}
+.connection label{
+    margin-bottom: 50px;
+}
+
+.connection .button{
+    background: #cdf7f8;
+    width: 150px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 179, 179);
+
+}
+
+.connection .button:active{
+color: #fff;
+opacity: 0.6;
+}
+
+.connection .button:hover{
+    opacity: .8;
+}
+
+.container .box-two{
+    width: 65%;
+    background: #fffce2;
+    padding-left: 10px;}
+ 
+@media (max-width: 600px){    
+    .container .box-two{
+        width: 100%;
+        }
+    }
+.box-two h3{
+    margin: 10px 20px;
+}
+
+.table td:nth-child(1){
+    text-align: left;
+    width: 160px;
+    padding-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.box-two a:hover{
+    color: #30a3e6;
+    text-decoration: underline;
+}
